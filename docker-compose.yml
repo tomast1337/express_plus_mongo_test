@@ -20,6 +20,7 @@ services:
       MONGO_INITDB_DATABASE: myapp
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: password
+      MONGO_INITDB_COLLECTION: users
     ports:
       - "27017:27017"
     volumes:
